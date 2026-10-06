@@ -1,0 +1,121 @@
+2026-10-05 14:37:03.661 IST [34726] LOG:  starting PostgreSQL 18.6 (Homebrew) on aarch64-apple-darwin25.6.0, compiled by Apple clang version 21.0.0 (clang-2100.3.34.2), 64-bit
+2026-10-05 14:37:03.662 IST [34726] LOG:  listening on IPv6 address "::1", port 5434
+2026-10-05 14:37:03.662 IST [34726] LOG:  listening on IPv4 address "127.0.0.1", port 5434
+2026-10-05 14:37:03.663 IST [34726] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5434"
+2026-10-05 14:37:03.668 IST [34732] LOG:  database system was interrupted; last known up at 2026-10-05 14:35:44 IST
+2026-10-05 14:37:03.721 IST [34732] LOG:  starting backup recovery with redo LSN 0/2000028, checkpoint LSN 0/2000080, on timeline ID 1
+2026-10-05 14:37:03.721 IST [34732] LOG:  entering standby mode
+2026-10-05 14:37:03.722 IST [34732] LOG:  redo starts at 0/2000028
+2026-10-05 14:37:03.722 IST [34732] LOG:  completed backup recovery with redo LSN 0/2000028 and end LSN 0/2000120
+2026-10-05 14:37:03.723 IST [34732] LOG:  consistent recovery state reached at 0/2000120
+2026-10-05 14:37:03.723 IST [34726] LOG:  database system is ready to accept read-only connections
+2026-10-05 14:37:04.508 IST [34733] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 14:38:40.757 IST [34920] ERROR:  cannot execute INSERT in a read-only transaction
+2026-10-05 14:38:40.757 IST [34920] STATEMENT:  INSERT INTO users (name) VALUES ('Hacker');
+2026-10-05 14:42:03.650 IST [34730] LOG:  restartpoint starting: time
+2026-10-05 14:42:08.455 IST [34730] LOG:  restartpoint complete: wrote 47 buffers (0.3%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=4.796 s, sync=0.005 s, total=4.806 s; sync files=39, longest=0.001 s, average=0.001 s; distance=16588 kB, estimate=16588 kB; lsn=0/30333B8, redo lsn=0/3033328
+2026-10-05 14:42:08.455 IST [34730] LOG:  recovery restart point at 0/3033328
+2026-10-05 14:42:08.455 IST [34730] DETAIL:  Last completed transaction was at log time 2026-10-05 14:38:09.206623+05:30.
+2026-10-05 15:33:18.524 IST [34733] FATAL:  terminating walreceiver due to timeout
+2026-10-05 15:33:18.530 IST [34732] LOG:  invalid record length at 0/3033468: expected at least 24, got 0
+2026-10-05 15:33:18.792 IST [38059] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 15:58:46.503 IST [38059] FATAL:  terminating walreceiver due to timeout
+2026-10-05 15:58:46.826 IST [38719] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 16:07:20.743 IST [38719] FATAL:  terminating walreceiver due to timeout
+2026-10-05 16:07:20.789 IST [39170] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 16:29:13.070 IST [39170] FATAL:  terminating walreceiver due to timeout
+2026-10-05 16:29:13.115 IST [39502] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 16:34:59.172 IST [39502] FATAL:  terminating walreceiver due to timeout
+2026-10-05 16:34:59.201 IST [39554] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 16:41:03.483 IST [39554] FATAL:  terminating walreceiver due to timeout
+2026-10-05 16:41:03.524 IST [39609] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 17:36:19.475 IST [39609] FATAL:  terminating walreceiver due to timeout
+2026-10-05 17:36:19.527 IST [39710] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 18:20:51.070 IST [39710] FATAL:  terminating walreceiver due to timeout
+2026-10-05 18:20:51.464 IST [42226] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 20:39:04.294 IST [42226] FATAL:  terminating walreceiver due to timeout
+2026-10-05 20:39:05.248 IST [47712] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 21:22:57.749 IST [47712] FATAL:  terminating walreceiver due to timeout
+2026-10-05 21:22:57.794 IST [50087] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 21:34:14.990 IST [50087] FATAL:  terminating walreceiver due to timeout
+2026-10-05 21:34:15.024 IST [50130] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 23:27:40.174 IST [50130] FATAL:  terminating walreceiver due to timeout
+2026-10-05 23:27:40.314 IST [56695] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 23:43:20.103 IST [56695] FATAL:  terminating walreceiver due to timeout
+2026-10-05 23:43:20.152 IST [56794] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-05 23:59:19.452 IST [56794] FATAL:  terminating walreceiver due to timeout
+2026-10-05 23:59:19.503 IST [56896] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 00:12:01.788 IST [56896] FATAL:  terminating walreceiver due to timeout
+2026-10-06 00:12:01.841 IST [57800] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 00:27:51.444 IST [57800] FATAL:  terminating walreceiver due to timeout
+2026-10-06 00:27:51.473 IST [57922] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 00:43:50.732 IST [57922] FATAL:  could not receive data from WAL stream: server closed the connection unexpectedly
+		This probably means the server terminated abnormally
+		before or while processing the request.
+2026-10-06 00:43:50.771 IST [58028] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 02:14:27.222 IST [58028] FATAL:  terminating walreceiver due to timeout
+2026-10-06 02:14:27.436 IST [63025] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 03:13:32.936 IST [63025] FATAL:  terminating walreceiver due to timeout
+2026-10-06 03:13:33.048 IST [65760] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 03:19:32.493 IST [65760] FATAL:  could not receive data from WAL stream: server closed the connection unexpectedly
+		This probably means the server terminated abnormally
+		before or while processing the request.
+2026-10-06 03:19:32.539 IST [65849] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 03:25:22.570 IST [65849] FATAL:  terminating walreceiver due to timeout
+2026-10-06 03:25:22.609 IST [65931] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 03:31:11.783 IST [65931] FATAL:  terminating walreceiver due to timeout
+2026-10-06 03:31:11.827 IST [66024] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 03:47:21.973 IST [66024] FATAL:  terminating walreceiver due to timeout
+2026-10-06 03:47:22.017 IST [66167] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 04:03:15.149 IST [66167] FATAL:  terminating walreceiver due to timeout
+2026-10-06 04:03:15.184 IST [66233] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 04:20:33.209 IST [66233] FATAL:  terminating walreceiver due to timeout
+2026-10-06 04:20:33.257 IST [66314] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 04:38:01.192 IST [66314] FATAL:  terminating walreceiver due to timeout
+2026-10-06 04:38:01.232 IST [66475] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 04:53:53.397 IST [66475] FATAL:  terminating walreceiver due to timeout
+2026-10-06 04:53:53.505 IST [66502] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 05:10:09.113 IST [66502] FATAL:  terminating walreceiver due to timeout
+2026-10-06 05:10:09.157 IST [66623] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 05:24:22.310 IST [66623] FATAL:  terminating walreceiver due to timeout
+2026-10-06 05:24:22.356 IST [66748] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 05:26:13.623 IST [66748] FATAL:  terminating walreceiver due to timeout
+2026-10-06 05:26:13.653 IST [66826] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 05:42:50.755 IST [66826] FATAL:  terminating walreceiver due to timeout
+2026-10-06 05:42:50.789 IST [66922] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 05:58:36.840 IST [66922] FATAL:  terminating walreceiver due to timeout
+2026-10-06 05:58:36.885 IST [66982] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 06:15:12.070 IST [66982] FATAL:  terminating walreceiver due to timeout
+2026-10-06 06:15:12.116 IST [67064] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 06:32:04.619 IST [67064] FATAL:  terminating walreceiver due to timeout
+2026-10-06 06:32:04.659 IST [67162] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 06:49:14.809 IST [67162] FATAL:  terminating walreceiver due to timeout
+2026-10-06 06:49:14.854 IST [67232] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 07:05:40.849 IST [67232] FATAL:  terminating walreceiver due to timeout
+2026-10-06 07:05:40.890 IST [67312] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 07:27:11.759 IST [67312] FATAL:  terminating walreceiver due to timeout
+2026-10-06 07:27:11.826 IST [67398] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 07:43:10.866 IST [67398] FATAL:  terminating walreceiver due to timeout
+2026-10-06 07:43:10.912 IST [67475] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 08:01:06.034 IST [67475] FATAL:  terminating walreceiver due to timeout
+2026-10-06 08:01:06.065 IST [67548] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 08:17:33.124 IST [67548] FATAL:  terminating walreceiver due to timeout
+2026-10-06 08:17:33.170 IST [67630] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 08:28:14.289 IST [67630] FATAL:  could not receive data from WAL stream: server closed the connection unexpectedly
+		This probably means the server terminated abnormally
+		before or while processing the request.
+2026-10-06 08:28:14.331 IST [67737] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 08:44:52.429 IST [67737] FATAL:  terminating walreceiver due to timeout
+2026-10-06 08:44:52.469 IST [67800] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 09:01:46.503 IST [67800] FATAL:  terminating walreceiver due to timeout
+2026-10-06 09:01:46.554 IST [67874] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 09:20:13.887 IST [67874] FATAL:  terminating walreceiver due to timeout
+2026-10-06 09:20:13.937 IST [68095] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 09:37:14.668 IST [68095] FATAL:  terminating walreceiver due to timeout
+2026-10-06 09:37:14.723 IST [68169] LOG:  started streaming WAL from primary at 0/3000000 on timeline 1
+2026-10-06 10:03:24.341 IST [70283] ERROR:  cannot execute INSERT in a read-only transaction
+2026-10-06 10:03:24.341 IST [70283] STATEMENT:  INSERT INTO users (name) VALUES ($1);
+2026-10-06 10:05:16.168 IST [34730] LOG:  restartpoint starting: time
+2026-10-06 10:05:16.477 IST [34730] LOG:  restartpoint complete: wrote 3 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.001 s, total=0.310 s; sync files=4, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=14929 kB; lsn=0/3033750, redo lsn=0/30336F8
+2026-10-06 10:05:16.477 IST [34730] LOG:  recovery restart point at 0/30336F8
+2026-10-06 10:05:16.477 IST [34730] DETAIL:  Last completed transaction was at log time 2026-10-06 10:02:36.990702+05:30.

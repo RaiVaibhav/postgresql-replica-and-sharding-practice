@@ -1,0 +1,8 @@
+2026-10-06 10:05:06.251 IST [70525] LOG:  starting PostgreSQL 18.6 (Homebrew) on aarch64-apple-darwin25.6.0, compiled by Apple clang version 21.0.0 (clang-2100.3.34.2), 64-bit
+2026-10-06 10:05:06.253 IST [70525] LOG:  listening on IPv6 address "::1", port 5435
+2026-10-06 10:05:06.253 IST [70525] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2026-10-06 10:05:06.253 IST [70525] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5435"
+2026-10-06 10:05:06.257 IST [70531] LOG:  database system was shut down at 2026-10-06 10:04:48 IST
+2026-10-06 10:05:06.258 IST [70525] LOG:  database system is ready to accept connections
+2026-10-06 10:10:06.250 IST [70529] LOG:  checkpoint starting: time
+2026-10-06 10:10:15.192 IST [70529] LOG:  checkpoint complete: wrote 88 buffers (0.5%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.934 s, sync=0.004 s, total=8.943 s; sync files=50, longest=0.001 s, average=0.001 s; distance=548 kB, estimate=548 kB; lsn=0/1816278, redo lsn=0/18161E8

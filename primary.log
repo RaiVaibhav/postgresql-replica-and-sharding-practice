@@ -1,0 +1,25 @@
+2026-10-05 14:29:22.068 IST [34181] LOG:  starting PostgreSQL 18.6 (Homebrew) on aarch64-apple-darwin25.6.0, compiled by Apple clang version 21.0.0 (clang-2100.3.34.2), 64-bit
+2026-10-05 14:29:22.069 IST [34181] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-05 14:29:22.069 IST [34181] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-05 14:29:22.070 IST [34181] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-10-05 14:29:22.077 IST [34187] LOG:  database system was shut down at 2026-10-05 14:25:54 IST
+2026-10-05 14:29:22.081 IST [34181] LOG:  database system is ready to accept connections
+2026-10-05 14:34:22.078 IST [34185] LOG:  checkpoint starting: time
+2026-10-05 14:34:26.957 IST [34185] LOG:  checkpoint complete: wrote 48 buffers (0.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.873 s, sync=0.003 s, total=4.880 s; sync files=15, longest=0.001 s, average=0.001 s; distance=354 kB, estimate=354 kB; lsn=0/17E5A30, redo lsn=0/17E59A0
+2026-10-05 14:34:32.350 IST [34181] LOG:  received SIGHUP, reloading configuration files
+2026-10-05 14:35:44.528 IST [34185] LOG:  checkpoint starting: force wait
+2026-10-05 14:35:44.651 IST [34185] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.102 s, sync=0.001 s, total=0.124 s; sync files=1, longest=0.001 s, average=0.001 s; distance=8297 kB, estimate=8297 kB; lsn=0/2000080, redo lsn=0/2000028
+2026-10-05 14:40:44.637 IST [34185] LOG:  checkpoint starting: time
+2026-10-05 14:40:49.442 IST [34185] LOG:  checkpoint complete: wrote 47 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=4.794 s, sync=0.005 s, total=4.806 s; sync files=39, longest=0.001 s, average=0.001 s; distance=16588 kB, estimate=16588 kB; lsn=0/30333B8, redo lsn=0/3033328
+2026-10-06 00:43:50.728 IST [57923] LOG:  terminating walsender process due to replication timeout
+2026-10-06 00:43:50.728 IST [57923] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+2026-10-06 03:19:32.490 IST [65763] LOG:  terminating walsender process due to replication timeout
+2026-10-06 03:19:32.490 IST [65763] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+2026-10-06 05:10:09.114 IST [66525] LOG:  terminating walsender process due to replication timeout
+2026-10-06 05:10:09.114 IST [66525] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+2026-10-06 06:32:04.615 IST [67065] LOG:  terminating walsender process due to replication timeout
+2026-10-06 06:32:04.615 IST [67065] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+2026-10-06 08:28:14.284 IST [67631] LOG:  terminating walsender process due to replication timeout
+2026-10-06 08:28:14.284 IST [67631] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+2026-10-06 10:05:09.659 IST [34185] LOG:  checkpoint starting: time
+2026-10-06 10:05:09.970 IST [34185] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.001 s, total=0.313 s; sync files=4, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=14929 kB; lsn=0/3033750, redo lsn=0/30336F8

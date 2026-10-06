@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/postgresql@18/18.6/bin/postgres "-D" "primary_data" "-p" "5433"
